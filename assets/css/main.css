@@ -1,0 +1,335 @@
+/* CSS Reset */
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Global Styles */
+body {
+  font-family: 'Avenir';
+}
+span {
+  font-weight: 600;
+}
+.Header, .Footer {
+  padding: 0 10%;
+}
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+h2 {
+  font-size: 2.7em;
+  padding: 70px 0 30px 0;
+}
+
+
+/* Header Styles */
+.Header {
+  background-image: -webkit-radial-gradient(50% 71%, ellipse farthest-corner,rgba(255, 255, 255, 0.71) 10%,rgba(255, 255, 255, 0.49) 20%,rgb(220, 7, 17) 100%);
+   /* IE10+ */
+   background-image: radial-gradient(ellipse farthest-corner at 50% 71%,rgba(255, 255, 255, 0.71) 10%,rgba(255, 255, 255, 0.49) 20%,rgb(220, 7, 17) 100%);
+   background-image: -ms-radial-gradient(50% 71%, ellipse farthest-corner,rgba(255, 255, 255, 0.71) 10%,rgba(255, 255, 255, 0.49) 20%,rgb(220, 7, 17) 100%);
+}
+.Header .container {
+
+}
+.Header .nav_bar {
+  padding-top: 30px;
+}
+.Header .nav_bar .logo, .logo img {
+  display: inline-block;
+  height: 53px;
+}
+.Header .nav_bar .nav {
+  display: inline-block;
+  line-height: 53px;
+  float: right;
+}
+.Header .nav_bar .nav li {
+  display: inline;
+  text-transform: uppercase;
+  font-size: .9em;
+  font-weight: 300;
+  padding: 4px 8px;
+  margin: 0 10px;
+}
+.Header .nav_bar .nav .buy_now {
+  border: 1px solid #ffffff;
+  border-radius: 50px 50px;
+  font-size: .8em;
+  padding: 6px 22px;
+}
+.Header .nav_bar .nav li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.Header .poster {
+  text-align: center;
+  color: #ffffff;
+  padding: 100px;
+}
+.Header .poster h1 {
+  font-size: 3.2em;
+  font-weight: 400;
+}
+.Header .poster p {
+  font-size: 1.7em;
+  font-weight: 300;
+  margin: 20px 0 30px 0;
+}
+.Header .poster img {
+  width: 470px;
+}
+
+/* Colors Styles */
+.Colors {
+  background-image: url('../images/variety_bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.Colors .container {
+  text-align: center;
+  color: #EA6C72;
+}
+.Colors h2 {
+}
+.Colors p {
+  font-size: 1.4em;
+  font-weight: 300;
+  width: 80%;
+  margin: 0 auto;
+}
+.Colors img {
+  width: 80%;
+  padding: 100px 0;
+}
+
+/* Health Styles */
+.Health {
+  background-image: url('../images/healthy_bg.png');
+  background-image: url('../images/healthy_bg.png'), -webkit-radial-gradient(50% 71%, ellipse farthest-corner,rgb(197, 214, 229) 20%,rgb(166, 178, 189) 100%);
+   /* IE10+ */
+   background-image: url('../images/healthy_bg.png'), radial-gradient(ellipse farthest-corner at 50% 71%,rgb(197, 214, 229) 20%,rgb(166, 178, 189) 100%);
+   background-image: url('../images/healthy_bg.png'), -ms-radial-gradient(50% 71%, ellipse farthest-corner,rgb(197, 214, 229) 20%,rgb(166, 178, 189) 100%);
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: bottom;
+}
+.Health .container {
+  color: #ffffff;
+  text-align: center;
+}
+.Health h2 {
+
+}
+.Health p {
+  font-size: 1.4em;
+  font-size: 300;
+  width: 80%;
+  margin: 0 auto;
+}
+.Health img {
+  padding: 100px 0;
+}
+.Health .nutrition_info {
+  padding: 0 0 100px 0;
+}
+.Health .nutrition_info li {
+  display: inline-block;
+  margin: 0 30px;
+  font-size: 1.7em;
+  font-weight: 300;
+  border-top: 1px solid #ffffff;
+  padding: 10px 0;
+
+}
+.Health .nutrition_info li p {
+  font-size: 1em;
+  margin: 0;
+  padding: 5px;
+}
+
+/* Testimonial Styles */
+.Testimonials {
+  background-image: url('../images/testimonal_bg.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.Testimonials .container {
+  text-align: center;
+  color: #9F9F9F;
+  padding: 50px 0;
+}
+.Testimonials h2 {
+
+}
+.Testimonials p {
+  font-size: 1.4em;
+  font-size: 300;
+  width: 80%;
+  margin: 0 auto;
+}
+.Testimonials .left_arrow {
+
+}
+.Testimonials .reviews {
+  margin-bottom: 50px;
+}
+.Testimonials .reviews li {
+  display: inline-block;
+  width: 50%;
+  position: relative;
+}
+.Testimonials .reviews li p {
+  font-size: 1em;
+  line-height: 1.5em;
+  border-bottom: 1px solid #9f9f9f;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+.Testimonials .reviews .one {
+  right: 65%;
+  top: 90px;
+  opacity: .45;
+}
+.Testimonials .reviews .two {
+  border-bottom: url()
+}
+.Testimonials .reviews .three {
+  left: 65%;
+  bottom: 90px;
+  opacity: .45;
+}
+.Testimonials .right_arrow {
+
+}
+.Testimonials h3 {
+  font-size: .69em;
+}
+/* Buy Styles */
+.Buy {
+  background-color: #EDEDED;
+  color: #9F9F9F;
+}
+.Buy .container {
+  text-align: center;
+}
+.Buy .prices {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  padding: 100px 120px;
+  width: 60%;
+  margin: 0 auto;
+}
+.Buy .prices h3 {
+  font-size: 1.3em;
+  margin: 25px 0;
+}
+.Buy .prices ul {
+  text-align: center;
+}
+.Buy .prices ul li {
+  margin: 15px 0;
+  width: 150px;
+  font-size: .9em;
+}
+.Buy .prices button {
+  background-color: transparent;
+  padding: 6px 15px;
+  color: #7ECA72;
+  text-transform: uppercase;
+  border: 1px solid #7ECA72;
+  border-radius: 50px 50px;
+  margin-top: 50px;
+}
+.Buy .prices h6 {
+  font-size: .57em;
+  font-weight: 600;
+  margin-top: 5px;
+}
+.Buy .prices .lite {
+  border-right: 1px solid #9f9f9f;
+  padding-right: 20px;
+}
+.Buy .prices .pro {
+
+}
+.Buy .prices .team {
+  border-left: 1px solid #9f9f9f;
+  padding-left: 20px;
+}
+
+
+/* Footer Styles */
+
+.Footer {
+  color: #9f9f9f;
+}
+.Footer .container {
+
+}
+.Footer p {
+  display: inline-block;
+  width: 270px;
+  font-size: .68em;
+  padding: 20px 10px;
+}
+.Footer ul {
+  display: inline-block;
+  width: 250px;
+  float: right;
+  font-size: .8em;
+  line-height: 70px;
+}
+.Footer ul li {
+  display: inline;
+  margin: 0 10px
+}

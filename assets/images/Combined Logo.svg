@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="150px" height="53px" viewBox="0 0 150 53" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.1 (35376) - http://www.bohemiancoding.com/sketch -->
+    <title>Combined Logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-136.000000, -29.000000)">
+            <g id="Header">
+                <g id="Nav-Bar" transform="translate(137.000000, 20.000000)">
+                    <g id="Combined-Logo">
+                        <path d="M26.0477932,19.5253753 C29.0765716,18.7859128 32.4473387,18.0845354 35.5872909,18.0845354 C40.3322631,18.0845354 44.2864065,19.8817191 44.2864065,27.0704537 C44.2864065,48.6366575 33.7080427,53.4985665 29.0987355,53.4985665 C24.4894284,53.4985665 24.3458813,51.5121513 21.7477889,51.5121513 C19.1496966,51.5121513 18.1890598,53.4985665 14.3968423,53.4985665 C10.6046248,53.4985665 1.50868704e-15,46.8496629 0,27.0704537 C0,20.6005926 5.53649246,18.0845354 9.8853586,18.0845354 C13.6434346,18.0845354 16.7559184,19.1698914 19.8696974,20.0826082 L17.6782511,12.574101 C17.5236003,12.0442243 17.8015907,11.4173995 18.3070708,11.187978 C18.3070708,11.187978 22.9340319,8.73918048 24.120275,10.8958009 C24.8578183,12.2366737 25.5953617,16.4954404 26.0477932,19.5253753 Z" id="Logo" stroke="#FFFFFF" stroke-width="2"></path>
+                        <text id="Apple" font-family="Pacifico-Regular, Pacifico" font-size="36" font-weight="normal" fill="#FFFFFF">
+                            <tspan x="61.605288" y="47.2530831">Apple</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
